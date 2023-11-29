@@ -22,11 +22,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /*Variable declarations begin with two dashes (-) and are given a name and a value like this:*/
+    --building-color1: #999;
 }
 
 .bb1a {
     width: 70%;
     height: 10%;
+    /*Whatever value you gave the variable will be applied to whatever property you use it on.*/
+    background-color: var(--building-color1);
 }
 
 .bb1b {
