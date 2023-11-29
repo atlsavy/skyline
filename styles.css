@@ -1,0 +1,22 @@
+
+/*This is a trick that helps visualize where elements are and their size. You will remove this later.*/
+* {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background-buildings {
+    width: 100%;
+    height: 100%;
+}
+
+.bb1 {
+    height: 70%;
+    width: 10%;
+}
