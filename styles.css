@@ -7,10 +7,11 @@
 
 /*This is the highest level selector in CSS; putting your variables there will make them usable everywhere.*/
 :root {
-    /*/*Variable declarations begin with two dashes (-) and are given a name and a value like this:*/
+    /*Variable declarations begin with two dashes (-) and are given a name and a value like this:*/
     --building-color1: #aa80ff;
     --building-color2: #66cc99;
     --building-color3: #cc6699;
+    --building-color4: #538cc6;
 }
 
 body {
@@ -70,10 +71,11 @@ body {
 .bb3 {
     width: 10%;
     height: 55%;
-    background-color: var(--building-color3, pink);
+    background-color: var(--building-color3);
 }
 
 .bb4 {
     width: 11%;
     height: 58%;
+    background-color: var(--building-color4);
 }
