@@ -20,6 +20,7 @@ body {
     overflow: hidden;
 }
 
+/*You want the .foreground-buildings container to sit directly on top of the .background-buildings element.*/
 .background-buildings, .foreground-buildings {
     width: 100%;
     height: 100%;
@@ -87,42 +88,40 @@ body {
 /*Background buildings done.*/
 
 
-/*You want the .foreground-buildings container to sit directly on top of the .background-buildings element.*/
-.foreground-buildings {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items:flex-end;
-    justify-content: space-evenly;
-/* ^This will position the buildings in the bottom center and evenly space them*/
-}
+
 
 .fb1 {
     width: 10%;
     height: 60%;
+    background-color: var(--building-color4);
 }
 
 .fb2 {
     width: 10%;
     height: 40%;
+    background-color: var(--building-color3);
 }
 
 .fb3 {
     width: 10%;
     height: 35%;
+    background-color: var(--building-color1);
 }
 
 .fb4 {
     width: 8%;
     height: 45%;
+    background-color: var(--building-color1);
 }
 
 .fb5 {
     width: 10%;
     height: 33%;
+    background-color: var(--building-color2);
 }
 
 .fb6 {
     width: 9%;
     height: 38%;
+    background-color: var(--building-color3);
 }
