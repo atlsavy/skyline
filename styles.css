@@ -12,6 +12,7 @@
     --building-color2: #66cc99;
     --building-color3: #cc6699;
     --building-color4: #538cc6;
+    --window-color1: black;
 }
 
 body {
@@ -33,6 +34,8 @@ body {
 
 }
 
+
+/*BACKGROUND BUILDINGS - "bb" stands for "background building"*/
 .bb1 {
     height: 70%;
     width: 10%;
@@ -47,6 +50,8 @@ body {
     height: 10%;
     /*Whatever value you gave the variable will be applied to whatever property you use it on.*/
     background-color: var(--building-color1);
+    background: linear-gradient(var(--building-color1), var(--window-color1));
+    /*^^Gradients in CSS are a way to transition between colors across the distance of an element. */
 }
 
 .bb1b {
@@ -89,7 +94,7 @@ body {
 
 
 
-
+/*FOREGROUND BUILDINGS - "fb" stands for "foreground building"*/
 .fb1 {
     width: 10%;
     height: 60%;
